@@ -5,13 +5,13 @@ title: Quickstart
 
 # Quickstart
 
-![Cluster Installation Demo](https://vimeo.com/505339446){height="600" width="800"}
+![Cluster Installation Demo](https://vimeo.com/505339446)
 
 Welcome to the quick start guide, let's attempt to get your DNIF cluster up and running within the next 10 minutes.
 
 This guide will install DNIF on three cloud instances, however the same process can be used to install on hyper converged infrastructure or even baremetal hardware. DNIF components are available in the form of Docker container images that are available on Docker Hub.
 
-![architecture-guide-standard-deployment \(D0\)](https://cdn.document360.io/41644e2e-65f8-4981-aaf1-d48806f846a9/Images/Documentation/architecture-guide-standard-deployment%20%28D0%29.png){height="" width="500"}
+![architecture-guide-standard-deployment \(D0\)](https://cdn.document360.io/41644e2e-65f8-4981-aaf1-d48806f846a9/Images/Documentation/architecture-guide-standard-deployment%20%28D0%29.png)
 :::(Info) (Operating System)
  Recommended [Ubuntu Server 20.04 (LTS)](https://ubuntu.com/download/server){target="_blank"} 64-bit.
 :::
@@ -34,7 +34,7 @@ All DNIF components can be installed using a single command, this is a helper sc
 
 The installation will perform basic OS checks and will prompt you to pick a component you would like to install.
 
-![Installer screen](https://cdn.document360.io/41644e2e-65f8-4981-aaf1-d48806f846a9/Images/Documentation/Screenshot%20from%202021-03-03%2007-28-07.png){height="" width=""}
+![Installer screen](https://cdn.document360.io/41644e2e-65f8-4981-aaf1-d48806f846a9/Images/Documentation/Screenshot%20from%202021-03-03%2007-28-07.png)
 
 Begin the installation with the Core (CO), as it controls and manages the cluster. All  components will need the host address of the CO so it can find the cluster head at first boot. 
 :::(Info) ()
