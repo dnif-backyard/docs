@@ -1,3 +1,10 @@
+---
+layout: default
+title: Quickstart
+---
+
+# Quickstart
+
 ![Cluster Installation Demo](https://vimeo.com/505339446){height="600" width="800"}
 
 Welcome to the quick start guide, let's attempt to get your DNIF cluster up and running within the next 10 minutes.
