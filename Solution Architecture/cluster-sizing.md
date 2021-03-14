@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Cluster Sizing
+title: Scaling Datanodes
 parent: Solution Architecture
 ---
 
-# Sizing your DNIF Cluster
+# Scaling Datanodes
 
 - DNIF decouples compute requirements from storage requirements.
 - DNIF leverage data compaction and compression techniques to achieve near 10:1 compression over your event data including the raw log, processed and enriched fields.
@@ -18,15 +18,15 @@ parent: Solution Architecture
 - It is preferrable to have fewer datanodes with higher CPU density.
 
 
-## 50K EPS
+### 50K EPS
 - 50K EPS at an average raw log size of 800 bytes equates to around 3.5TB of daily log ingestion.
 - This setup will require a minimum of 128 vCPUs which can be met by 4x 32vCPU or around 2x 64vCPU datanodes.
 
-## 100K EPS
+### 100K EPS
 - 100K EPS at an average raw log size of 800 bytes equates to around 7TB of daily log ingestion.
 - This setup will require a minimum of 224 vCPUs which can be met by 7x 32vCPU or around 4x 64vCPU datanodes.
 
-## 500K EPS
+### 500K EPS
 - 500K EPS at an average raw log size of 800 bytes equates to around 35TB of daily log ingestion.
 - This setup will require a minimum of 1120 vCPUs which can be met by 18x 64vCPU or around 12x 96vCPU datanodes.
 
