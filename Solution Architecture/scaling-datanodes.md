@@ -16,6 +16,13 @@ parent: Solution Architecture
 - All datanodes in your cluster must be of identical hardware specifications.
 - It is preferrable to have fewer datanodes with higher CPU density.
 
+### 15K EPS
+- 15K EPS at an average raw log size of 800 bytes equates to around 1TB of daily log ingestion.
+- This setup will require a minimum of 32 vCPUs which can be met by a single 32vCPU datanode.
+
+### 25K EPS
+- 25K EPS at an average raw log size of 800 bytes equates to around 1.7TB of daily log ingestion.
+- This setup will require a minimum of 32 vCPUs which can be met by 2x 32vCPU datanoes or a single 64vCPU datanode.
 
 ### 50K EPS
 - 50K EPS at an average raw log size of 800 bytes equates to around 3.5TB of daily log ingestion.
