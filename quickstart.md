@@ -5,16 +5,15 @@ title: Quickstart
 
 # Quickstart
 
-![Cluster Installation Demo](https://vimeo.com/505339446)
-
 Welcome to the quick start guide, let's attempt to get your DNIF cluster up and running within the next 10 minutes.
 
-This guide will install DNIF on three cloud instances, however the same process can be used to install on hyper converged infrastructure or even baremetal hardware. DNIF components are available in the form of Docker container images that are available on Docker Hub.
+This guide will install DNIF on three cloud instances, however the same process can be used to install on hyper-converged infrastructure or even baremetal hardware. DNIF components are available in the form of Docker container images that are available on Docker Hub.
 
-![architecture-guide-standard-deployment \(D0\)](https://cdn.document360.io/41644e2e-65f8-4981-aaf1-d48806f846a9/Images/Documentation/architecture-guide-standard-deployment%20%28D0%29.png)
-:::(Info) (Operating System)
- Recommended [Ubuntu Server 20.04 (LTS)](https://ubuntu.com/download/server){target="_blank"} 64-bit.
-:::
+
+> **Recommended Operating System**
+> [Ubuntu Server 20.04 (LTS)](https://ubuntu.com/download/server) 64-bit.
+
+
 We will use a standard DNIF deployment (D0) template for this setup, with the following components 
 * **Collector host** - collect, extract, enrich and index collected events using an Adapter (AD)
 * **Storage host** - index and correlate threat signals using Datanodes (DN)
@@ -23,7 +22,7 @@ We will use a standard DNIF deployment (D0) template for this setup, with the fo
 ## Before we begin
 Some notes before we start
 
-* You will need a community edition license key to initiate the cluster, you can get one by registering yourself on the [community](https://dw21.dnif.it/get-community.html){target="_blank"} page
+* You will need a community edition license key to initiate the cluster, you can get one by registering yourself on the [community](https://dw21.dnif.it/get-community.html) page
 * Relevant connectivity will be required for the installer script to download and install docker, docker-compose, openjdk and the DNIF component images from docker-hub
 * It is recommended to use the private host addresses for crosstalk between the components, while using a public (private works as well) host address for the local console
 
