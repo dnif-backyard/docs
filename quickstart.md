@@ -7,11 +7,7 @@ title: Quickstart
 
 Welcome to the quick start guide, let's attempt to get your DNIF cluster up and running within the next 10 minutes.
 
-This guide will install DNIF on three cloud instances, however the same process can be used to install on hyper-converged infrastructure or even baremetal hardware. DNIF components are available in the form of Docker container images that are available on Docker Hub.
-
-
-**Recommended Operating System**
-[Ubuntu Server 20.04 (LTS)](https://ubuntu.com/download/server) 64-bit
+This guide will install DNIF on three cloud instances, however the same process can be used to install on hyper-converged infrastructure or even baremetal hardware. DNIF components are available in the form of Docker container images that are available on Docker Hub. The Recommended Operating System for installation is [Ubuntu Server 20.04 (LTS)](https://ubuntu.com/download/server) 64-bit.
 
 
 We will use a standard DNIF deployment (D0) template for this setup, with the following components 
