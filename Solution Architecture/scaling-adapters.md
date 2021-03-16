@@ -7,7 +7,7 @@ parent: Solution Architecture
 # Scaling Adapters
 
 - One of the hallmarks of DNIF Hyperscale SIEM is the ability to collect, parse and enrich logs reliable at high speeds using the lowest hardware footprint in the industry.
-- Adapters support collection of logs from traditional on-premise models such as UDP/TCP/TLS Syslog as well as custom protocols and 
+- Adapters support collection of logs from traditional on-premise models such as UDP/TCP/TLS Syslog as well as custom protocols and cloud APIs.
 
 ## Recommendations
 - Our recommended minimum adapter configuration is 8 dedicated vCPUs with 32GB RAM enables reliable collection at upto 15K EPS.
