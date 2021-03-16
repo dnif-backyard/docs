@@ -9,7 +9,7 @@ parent: Solution Architecture
 ## Considerations
 - DNIF Datanodes are designed such that compute is decoupled from the storage requirement.
 - DNIF leverages data compaction and compression techniques to achieve near 10:1 compression over your event data including the raw log, processed and enriched fields. This lets you retain all your data online at no extra cost.
-- DNIF doesn't cap the storage on a datanode so sizing for scale only needs to account for compute requirements.
+- DNIF doesn't cap the storage on a datanode so we only need to size for compute requirements.
 - All datanodes in your cluster must be of identical hardware specifications.
 
 ## Recommendations
