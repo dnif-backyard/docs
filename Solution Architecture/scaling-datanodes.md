@@ -24,7 +24,7 @@ parent: Solution Architecture
 
 ### 25K EPS / 1.7TB Daily Ingestion
 - 25K EPS at an average raw log size of 800 bytes equates to around 1.7TB of daily log ingestion.
-- This setup will require a minimum of 32 vCPUs which can be met by 2x 32vCPU datanoes or a single 64vCPU datanode.
+- This setup will require a minimum of 64 vCPUs which can be met by 2x 32vCPU datanoes or a single 64vCPU datanode.
 - Recommend use of storage with minimum read/write speed of 400 MBps.
 
 ### 50K EPS / 3.5TB Daily Ingestion
