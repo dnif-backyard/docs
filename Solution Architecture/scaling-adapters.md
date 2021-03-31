@@ -17,7 +17,7 @@ parent: Solution Architecture
 
 ## Parameter Tuning
 ### Active Time Windows
-- This paramter lets the system handle late or out of order message processing more efficiently.
+- This parameter lets the system handle late or out of order message processing more efficiently.
 - Tweaking this is no recommended unless one has multiple PICO components deployed to enable remote collection.
 
 ### Adapter Pipelines
