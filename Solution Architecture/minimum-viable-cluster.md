@@ -5,3 +5,7 @@ parent: Solution Architecture
 ---
 
 # Minimum Viable Cluster
+
+✔️
+🙂
+⛔
