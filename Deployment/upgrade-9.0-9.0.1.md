@@ -22,6 +22,7 @@ Uninterrupted internet connectivity from all hosts.
 6. Upgrade and Start Console (Only if hosted separately from Core)
 7. Upgrade and Start Datanodes
 8. Upgrade and Start Adapters
+9. Clear your browser cache and login to Console
 
 For all stop steps, run the following command:
 ```sh
