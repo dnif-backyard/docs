@@ -6,7 +6,7 @@ parent: Deployment
 
 # Upgrading to 9.0.1
 
-### Note: 
+### Caution: 
 The upgrade process will involve in a downtime in log collection.
 Please ensure resources are aligned to be able to execute in the shortest possible span.
 
