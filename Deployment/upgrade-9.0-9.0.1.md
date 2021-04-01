@@ -14,9 +14,11 @@ Please ensure resources are aligned to be able to execute in the shortest possib
 1. Stop All Adapters
 2. Stop All Datanodes
 3. Stop Core
-4. Upgrade and Start Core
-5. Upgrade and Start Datanodes
-6. Upgrade and Start Adapters
+4. Stop Console (Only if hosted separately from Core)
+5. Upgrade and Start Core
+6. Upgrade and Start Console (Only if hosted separately from Core)
+7. Upgrade and Start Datanodes
+8. Upgrade and Start Adapters
 
 For all stop steps, run the following command:
 ```sh
