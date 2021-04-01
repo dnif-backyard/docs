@@ -16,8 +16,8 @@ Uninterrupted internet connectivity from all hosts.
 ## High-level Steps
 1. Stop All Adapters
 2. Stop All Datanodes
-3. Stop Core
-4. Stop Console (Only if hosted separately from Core)
+3. Stop Console (Only if hosted separately from Core)
+4. Stop Core
 5. Upgrade and Start Core
 6. Upgrade and Start Console (Only if hosted separately from Core)
 7. Upgrade and Start Datanodes
