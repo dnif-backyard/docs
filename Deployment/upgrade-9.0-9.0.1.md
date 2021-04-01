@@ -6,6 +6,10 @@ parent: Deployment
 
 # Upgrading to 9.0.1
 
+Note: 
+The upgrade process will involve in a downtime in log collection.
+Please ensure resources are aligned to be able to execute in the shortest possible span.
+
 ## High-level Steps
 1. Stop All Adapters
 2. Stop All Datanodes
@@ -25,9 +29,9 @@ bash -c "$(curl -s https://raw.githubusercontent.com/dnif/installer/9.0.1/upgrad
 ```
 
 ### Special note for 9.0 Proxy-enabled Deployments
-Edit docker-compose.yml for Core and Adapters.
-Add following variable to the pre-existing environment variable.
-
+After the stop steps and before starting with upgrade steps:
+1. Edit docker-compose.yml for Core and Adapters.
+2. Add following variable to the pre-existing environment variable.
 ```
 environment:
   - "PROXY=http://proxy_host:proxy_port"
