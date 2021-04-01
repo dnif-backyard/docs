@@ -36,5 +36,5 @@ After the stop steps and before starting with upgrade steps:
 2. Add following variable to the pre-existing environment variable.
 ```
 environment:
-  - "PROXY=http://proxy_host:proxy_port"
+  - 'PROXY=http://proxy_host:proxy_port'
 ```
