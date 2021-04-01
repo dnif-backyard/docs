@@ -10,6 +10,9 @@ parent: Deployment
 The upgrade process will involve in a downtime in log collection.
 Please ensure resources are aligned to be able to execute in the shortest possible span.
 
+### Prerequisite:
+Uninterrupted internet connectivity from all hosts.
+
 ## High-level Steps
 1. Stop All Adapters
 2. Stop All Datanodes
