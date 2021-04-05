@@ -18,7 +18,7 @@ parent: Solution Architecture
 ## Parameter Tuning
 ### Active Time Windows
 - This parameter lets the system handle late or out of order message processing more efficiently.
-- Tweaking this is no recommended unless one has multiple PICO components deployed to enable remote collection.
+- Tweaking this is not recommended unless one has multiple PICO components deployed to enable remote collection.
 
 ### Adapter Pipelines
 - This parameter lets you scale the number of adapter pipelines from the default 2 upto 8 to more reliably handle larger EPS volumes.
